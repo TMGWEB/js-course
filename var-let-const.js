@@ -21,7 +21,6 @@ var firstName = "John"; // Camel case
 var first_name = "Sara"; // Underscore
 var FirstName = 'Tom'; // Pascal cacse
 var firstname;
-*/
 
 ///////////////////LET
 
@@ -34,9 +33,9 @@ console.log(name);
 
 const name = "John Doe";
 console.log(name);
-Cannot reassign
+// Cannot reassign
 name = "Steve Smith";
-Have to assign a value
+// Have to assign a value
 const greeting;
 
 const person = {

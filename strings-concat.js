@@ -13,7 +13,7 @@ val = firstName + lastName;
 // Concatenation
 val = firstName + ' ' + lastName;
 
-Append
+// Append
 val = 'Tyler ';
 val += 'Griffiths';
 
@@ -41,7 +41,7 @@ val = firstName.lastIndexOf('l');
 
 // chartAt()
 val = firstName.charAt('2');
-Get last char
+// Get last char
 val = firstName.charAt(firstName.length - 1);
 
 // substring()

@@ -2,31 +2,31 @@
 
 let val;
 
-Number to string
+// Number to string
 val = String(555);
 val = String(4+4);
 
-Boolean to string
+// Boolean to string
 val = String(true);
 
-Date to string
+// Date to string
 val = String(new Date());
 
-Array to string
+// Array to string
 val = String([1,2,3,4]);
 
-toString()
+// toString()
 val = (5).toString();
 val = (true).toString();
 
-String to number
+// String to number
 val = Number('5');
 
-Bool to number
+// Bool to number
 val = Number(true);
 val = Number(false);
 
-Doesn't work
+// Doesn't work
 val = Number(null);
 val = Number('hello');
 val = Number([1,2,3]);

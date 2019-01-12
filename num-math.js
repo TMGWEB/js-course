@@ -4,14 +4,14 @@ const num1 = 100;
 const num2 = 50;
 let val;
 
-Simple math with numbers
+// Simple math with numbers
 val = num1 + num2;
 val = num1 * num2;
 val = num1 - num2;
 val = num1 / num2;
 val = num1 % num2;
 
-Math object
+// Math object
 val = Math.PI;
 val = Math.E;
 val = Math.round(2.5);

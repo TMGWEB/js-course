@@ -37,7 +37,7 @@ numbers.reverse();
 // Concatenate array
 val = numbers.concat(numbers2);
 
-Sorting arrays
+// Sorting arrays
 val = fruit.sort(); 
 val = numbers.sort();
 
