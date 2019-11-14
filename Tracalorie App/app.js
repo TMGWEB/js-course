@@ -310,6 +310,14 @@ const App = (function(ItemCtrl, UICtrl) {
 
     // Update UI
     UICtrl.updateListItem(updatedItem);
+
+    // Recalculate total calories
+    const totalCalories = ItemCtrl.getTotalCalories();
+
+    // Add updated total calories to UI
+    UICtrl.showTotalCalories(totalCalories);
+
+    UICtrl.clearEditState();
   };
 
   // Public Methods
